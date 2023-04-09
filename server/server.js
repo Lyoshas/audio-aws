@@ -18,7 +18,7 @@ const app = express();
 app.use(corsHandler);
 
 app.post(
-    '/transcribe-video',
+    '/transcribe-audio',
     multer({
         storage: memoryStorage,
         fileFilter,
