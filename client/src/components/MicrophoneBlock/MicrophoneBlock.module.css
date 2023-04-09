@@ -1,0 +1,16 @@
+.microphone-block {
+    background: #ededed;
+    padding: 30px;
+    border-radius: 50%;
+    transition: 0.5s background ease;
+    cursor: pointer;
+}
+
+.microphone-block:hover {
+    background: #ccc;
+}
+
+.microphone-image {
+    width: 200px;
+    pointer-events: none;
+}
